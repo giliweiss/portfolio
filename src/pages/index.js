@@ -102,7 +102,7 @@ export default function Home() {
             </p>
           </div>
           <img
-            src="/profile.png"
+            src={`${process.env.PUBLIC_URL}/profile.png`}
             alt="Gili Weissberg"
             className="w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-full object-cover object-top shrink-0 md:ml-auto ring-2 ring-zinc-200/80"
           />
@@ -111,19 +111,19 @@ export default function Home() {
 
       <section id="about" className="relative min-h-screen flex items-center justify-center px-6 py-24 bg-[#F8F5EE] overflow-hidden">
         <img
-          src="/about-1.png"
+          src={`${process.env.PUBLIC_URL}/about-1.png`}
           alt=""
           className="absolute top-[30%] left-[5%] sm:left-[8%] w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover ring-2 ring-white/80 shadow-lg"
           aria-hidden
         />
         <img
-          src="/about-2.png"
+          src={`${process.env.PUBLIC_URL}/about-2.png`}
           alt=""
           className="absolute top-[35%] right-[5%] sm:right-[8%] w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover ring-2 ring-white/80 shadow-lg"
           aria-hidden
         />
         <img
-          src="/about-3.png"
+          src={`${process.env.PUBLIC_URL}/about-3.png`}
           alt=""
           className="absolute bottom-[25%] left-[8%] sm:left-[12%] w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover ring-2 ring-white/80 shadow-lg"
           aria-hidden
